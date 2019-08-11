@@ -16,7 +16,7 @@ module.exports = {
             ],
         })
 
-        return res.status(200).json(users);
+        return res.json(users);
     },
 
     async store(req, res){
