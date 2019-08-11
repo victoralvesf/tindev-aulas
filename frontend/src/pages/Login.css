@@ -41,3 +41,7 @@
 .login-container form button:hover {
     background: #c52e0c;
 }
+
+img {
+    -webkit-user-drag: none;
+}
